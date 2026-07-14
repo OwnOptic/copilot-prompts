@@ -1,0 +1,52 @@
+[
+  {
+    "name": "copilotprompts-copilot-studio-coach",
+    "source": "pnp",
+    "title": "Copilot Studio Coach: build better agents, guided",
+    "shortDescription": "A Microsoft 365 Copilot declarative agent that coaches makers to design, build, debug, and ship better Copilot Studio agents, grounded on Microsoft Learn.",
+    "url": "https://github.com/pnp/copilot-prompts/tree/main/samples/agent-instructions/copilot-studio-coach",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/copilot-prompts/tree/main/samples/agent-instructions/copilot-studio-coach",
+    "longDescription": [
+      "Copilot Studio Coach helps makers design, build, debug, and ship agents in Microsoft Copilot Studio and Agent Builder. It recommends the right agent type (declarative, custom, custom engine) and orchestration mode (generative or classic), writes and reviews selection-friendly topic and tool descriptions, debugs generative-orchestration issues such as wrong topic or tool selection, explains Copilot Credits and how to forecast and cap cost, and applies DLP and authentication guidance. It uses a web search capability scoped to the Microsoft Learn Copilot Studio and Microsoft 365 Copilot documentation so guidance stays grounded in first-party sources, and it recommends rather than acting on the maker's tenant. The sample includes a ready-to-deploy app package for sideloading with the Microsoft 365 Agents Toolkit."
+    ],
+    "creationDateTime": "2026-07-14",
+    "updateDateTime": "2026-07-14",
+    "products": [
+      "Microsoft 365 Copilot",
+      "Microsoft Copilot Studio"
+    ],
+    "metadata": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/copilot-prompts/raw/main/samples/agent-instructions/copilot-studio-coach/assets/demo.png",
+        "alt": "Copilot Studio Coach - guidance response in Microsoft 365 Copilot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "pictureUrl": "https://avatars.githubusercontent.com/OwnOptic",
+        "name": "Elliot Margot"
+      }
+    ],
+    "references": [
+      {
+        "name": "Build agents by using Agent Builder in Microsoft 365 Copilot",
+        "description": "Create declarative agents in Microsoft 365 Copilot",
+        "url": "https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-build-agents"
+      },
+      {
+        "name": "Orchestrate agent behavior with generative AI",
+        "description": "Generative vs classic orchestration in Copilot Studio",
+        "url": "https://learn.microsoft.com/microsoft-copilot-studio/advanced-generative-actions"
+      },
+      {
+        "name": "Microsoft Copilot Studio",
+        "description": "Build and configure agents in Microsoft Copilot Studio",
+        "url": "https://copilotstudio.microsoft.com/"
+      }
+    ]
+  }
+]

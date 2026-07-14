@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "26491953-6ddd-5a58-ab28-d1a1f989fd4a",
+  "developer": {
+    "name": "Elliot Margot",
+    "websiteUrl": "https://e-margot.ch",
+    "privacyUrl": "https://e-margot.ch/privacy",
+    "termsOfUseUrl": "https://e-margot.ch/terms",
+    "mpnId": "4959524"
+  },
+  "name": {
+    "short": "Copilot Studio Coach",
+    "full": "Copilot Studio Coach"
+  },
+  "description": {
+    "short": "Coaches makers to design, build, and ship better Copilot Studio agents.",
+    "full": "Copilot Studio Coach helps makers design, build, debug, and ship better agents in Microsoft Copilot Studio and Agent Builder. It advises on choosing the right agent type (declarative, custom, custom engine), classic vs generative orchestration, topic and tool design, knowledge sources, multilingual setup, Copilot Credits cost control, and DLP and governance. It recommends and explains, then leaves the maker to act. It never claims a feature exists without evidence and always points to the relevant Microsoft Learn guidance."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#2A3B4E",
+  "copilotAgents": {
+    "declarativeAgents": [
+      {
+        "id": "copilotStudioCoach",
+        "file": "declarativeAgent.json"
+      }
+    ]
+  }
+}
