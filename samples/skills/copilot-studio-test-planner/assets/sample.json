@@ -1,0 +1,48 @@
+[
+  {
+    "name": "copilotprompts-copilot-studio-test-planner",
+    "source": "pnp",
+    "title": "Copilot Studio Test Planner Skill for Cowork",
+    "shortDescription": "A Cowork skill that turns an exported Copilot Studio agent into a graded, runnable test suite before shipping.",
+    "url": "https://github.com/pnp/copilot-prompts/tree/main/samples/skills/copilot-studio-test-planner",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/copilot-prompts/tree/main/samples/skills/copilot-studio-test-planner",
+    "longDescription": [
+      "This skill teaches Cowork to design tests for a Microsoft Copilot Studio agent instead of guessing at them. It inventories the agent (topics, tools, knowledge, orchestration mode, languages, authentication), derives test cases across eight categories - happy path, paraphrase, disambiguation, slot filling, negative or no-match, knowledge grounding, multilingual, and safety - and assembles a regression subset that must pass on every change. Every case names a concrete expected topic or tool, so results are gradeable. The output runs in the Copilot Studio embedded test panel, which does not consume billed Copilot Credits, so makers can validate an agent and re-run the regression set for free after each change."
+    ],
+    "creationDateTime": "2026-07-14",
+    "updateDateTime": "2026-07-14",
+    "products": [
+      "Microsoft Copilot",
+      "Cowork",
+      "Microsoft Copilot Studio"
+    ],
+    "metadata": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/copilot-prompts/raw/main/samples/skills/copilot-studio-test-planner/assets/demo.png",
+        "alt": "Copilot Studio Test Planner skill generating a test plan in Cowork"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "pictureUrl": "https://avatars.githubusercontent.com/OwnOptic",
+        "name": "Elliot Margot"
+      }
+    ],
+    "references": [
+      {
+        "name": "Copilot Cowork Skills documentation",
+        "description": "Official documentation for Copilot Cowork skills",
+        "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork/#skills"
+      },
+      {
+        "name": "Microsoft Copilot Studio",
+        "description": "Build, test, and publish agents in Microsoft Copilot Studio",
+        "url": "https://copilotstudio.microsoft.com/"
+      }
+    ]
+  }
+]
