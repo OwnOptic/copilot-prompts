@@ -1,0 +1,47 @@
+[
+  {
+    "name": "copilotprompts-agent-topic-blueprint",
+    "source": "pnp",
+    "title": "Agent topic blueprint",
+    "shortDescription": "Turns a one-line use case into a build-ready Microsoft Copilot Studio agent blueprint.",
+    "url": "https://github.com/pnp/copilot-prompts/tree/main/samples/prompts/agent-topic-blueprint",
+    "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/copilot-prompts/tree/main/samples/prompts/agent-topic-blueprint",
+    "longDescription": [
+      "This prompt turns a one-line use case into a build-ready Microsoft Copilot Studio agent blueprint. It returns an agent-type and orchestration recommendation, 3 to 7 topics with selection-friendly descriptions and node flows, tools and actions with typed inputs and failure paths, knowledge sources, global variables, a valid Adaptive Card welcome, security and Copilot Credits cost notes, and a first test plan. It gives a maker a concrete starting structure to implement in Copilot Studio instead of a blank canvas."
+    ],
+    "creationDateTime": "2026-07-14",
+    "updateDateTime": "2026-07-14",
+    "products": [
+      "Microsoft 365 Copilot",
+      "Microsoft Copilot Studio"
+    ],
+    "metadata": [],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/copilot-prompts/raw/main/samples/prompts/agent-topic-blueprint/assets/demo.png",
+        "alt": "Agent topic blueprint output in Microsoft 365 Copilot"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "OwnOptic",
+        "pictureUrl": "https://avatars.githubusercontent.com/OwnOptic",
+        "name": "Elliot Margot"
+      }
+    ],
+    "references": [
+      {
+        "name": "Microsoft Copilot Studio",
+        "description": "Build and configure agents in Microsoft Copilot Studio",
+        "url": "https://copilotstudio.microsoft.com/"
+      },
+      {
+        "name": "Orchestrate agent behavior with generative AI",
+        "description": "Generative vs classic orchestration in Copilot Studio",
+        "url": "https://learn.microsoft.com/microsoft-copilot-studio/advanced-generative-actions"
+      }
+    ]
+  }
+]
